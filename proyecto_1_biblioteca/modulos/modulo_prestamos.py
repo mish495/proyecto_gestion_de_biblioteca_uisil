@@ -2,18 +2,7 @@ from proyecto_1_biblioteca.base_datos.conexion import conectar
 
 # ======================================================
 # FUNCION: registrar_prestamo()
-# QUE HACE:
-# Registra el préstamo de un libro a un usuario.
-#
-# PARA QUE SIRVE:
-# Permite llevar el control de qué usuario tiene
-# prestado un libro y reduce la cantidad disponible.
-#
-# QUE CUMPLE DEL PROYECTO:
-# - Registro de préstamos.
-# - Uso de SQLite.
-# - Relaciones entre tablas.
-# - Validaciones.
+
 # ======================================================
 
 def registrar_prestamo():
@@ -86,12 +75,7 @@ def registrar_prestamo():
 
 # ======================================================
 # FUNCION: consultar_prestamos()
-# QUE HACE:
-# Muestra todos los préstamos registrados.
-#
-# QUE CUMPLE:
-# - Consulta de datos.
-# - Uso de for.
+
 # ======================================================
 
 def consultar_prestamos():
@@ -117,14 +101,7 @@ def consultar_prestamos():
 
 # ======================================================
 # FUNCION: menu_prestamos()
-# QUE HACE:
-# Muestra el menú del módulo de préstamos.
-#
-# QUE CUMPLE:
-# - while
-# - if
-# - elif
-# - else
+
 # ======================================================
 
 def menu_prestamos():

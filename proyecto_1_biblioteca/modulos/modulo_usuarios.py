@@ -2,17 +2,7 @@
 from proyecto_1_biblioteca.base_datos.conexion import conectar
 # ======================================================
 # FUNCION: registrar_usuario()
-# QUE HACE:
-# Registra un nuevo usuario en la biblioteca.
-#
-# PARA QUE SIRVE:
-# Permite almacenar los datos de las personas que
-# podrán solicitar préstamos de libros.
-#
-# QUE CUMPLE DEL PROYECTO:
-# - Registrar usuarios.
-# - Inserción en SQLite.
-# - Validaciones.
+
 # ======================================================
 
 def registrar_usuario():
@@ -54,12 +44,7 @@ def registrar_usuario():
 
 # ======================================================
 # FUNCION: consultar_usuarios()
-# QUE HACE:
-# Muestra todos los usuarios registrados.
-#
-# QUE CUMPLE:
-# - Consulta de datos.
-# - Uso de for.
+
 # ======================================================
 
 def consultar_usuarios():
@@ -91,12 +76,7 @@ Telefono: {usuario[3]}
 
 # ======================================================
 # FUNCION: buscar_usuario()
-# QUE HACE:
-# Busca un usuario por identificación.
-#
-# QUE CUMPLE:
-# - Búsqueda.
-# - Uso de if y else.
+
 # ======================================================
 
 def buscar_usuario():
@@ -130,12 +110,7 @@ Telefono: {usuario[3]}
 
 # ======================================================
 # FUNCION: modificar_usuario()
-# QUE HACE:
-# Actualiza la información de un usuario.
-#
-# QUE CUMPLE:
-# - UPDATE.
-# - Modificación de registros.
+
 # ======================================================
 
 def modificar_usuario():
@@ -183,12 +158,7 @@ def modificar_usuario():
 
 # ======================================================
 # FUNCION: eliminar_usuario()
-# QUE HACE:
-# Elimina un usuario.
-#
-# QUE CUMPLE:
-# - DELETE.
-# - CRUD completo.
+
 # ======================================================
 
 def eliminar_usuario():
@@ -222,14 +192,7 @@ def eliminar_usuario():
 
 # ======================================================
 # FUNCION: menu_usuarios()
-# QUE HACE:
-# Muestra el menú del módulo de usuarios.
-#
-# QUE CUMPLE:
-# - while
-# - if
-# - elif
-# - else
+
 # ======================================================
 
 def menu_usuarios():

@@ -1,14 +1,7 @@
 from proyecto_1_biblioteca.base_datos.conexion import conectar
 # ======================================================
 # FUNCION: registrar_libro()
-# QUE HACE:
-# Registra un nuevo libro en la base de datos.
-#
-# QUE CUMPLE:
-# - CRUD (Create)
-# - Validaciones
-# - try-except
-# - SQLite
+
 # ======================================================
 
 
@@ -73,13 +66,7 @@ def registrar_libro():
 
 # ======================================================
 # FUNCION: consultar_libros()
-# QUE HACE:
-# Muestra todos los libros registrados.
-#
-# QUE CUMPLE:
-# - CRUD (Read)
-# - SELECT
-# - ciclo for
+
 # ======================================================
 
 
@@ -117,12 +104,7 @@ Cantidad: {libro[4]}
 
 # ======================================================
 # FUNCION: buscar_libro()
-# QUE HACE:
-# Busca un libro por código.
-#
-# QUE CUMPLE:
-# - Consultas específicas
-# - if y else
+
 # ======================================================
 
 
@@ -161,12 +143,7 @@ Cantidad: {libro[4]}
 
 # ======================================================
 # FUNCION: modificar_libro()
-# QUE HACE:
-# Actualiza la información de un libro.
-#
-# QUE CUMPLE:
-# - CRUD (Update)
-# - UPDATE
+
 # ======================================================
 
 
@@ -230,12 +207,7 @@ def modificar_libro():
 
 # ======================================================
 # FUNCION: eliminar_libro()
-# QUE HACE:
-# Elimina un libro.
-#
-# QUE CUMPLE:
-# - CRUD (Delete)
-# - DELETE
+
 # ======================================================
 
 
@@ -286,14 +258,7 @@ def eliminar_libro():
 
 # ======================================================
 # FUNCION: menu_libros()
-# QUE HACE:
-# Muestra el menú del módulo de libros.
-#
-# QUE CUMPLE:
-# - while
-# - if
-# - elif
-# - else
+
 # ======================================================
 
 
