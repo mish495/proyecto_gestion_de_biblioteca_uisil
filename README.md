@@ -17,4 +17,3 @@ Al reconstruir el repositorio y subir nuevamente el proyecto, todos los cambios 
 
 Por este motivo, dejamos esta aclaración para explicar que las contribuciones de cada integrante no pueden apreciarse únicamente a través del historial de Git, ya que este se vio afectado por la pérdida del repositorio original. Ambos trabajamos en conjunto para completar y entregar el proyecto.
 
-Si el profesor es estricto con el uso de Git, esta versión es más coherente, formal y explica claramente por qué el historial no coincide con la participación real de cada integrante.
