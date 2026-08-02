@@ -2,10 +2,10 @@
 # IMPORTACIONES
 # ======================================================
 
-from proyecto_1_biblioteca.base_datos.crear_tablas import crear_tablas
-from proyecto_1_biblioteca.modulos.modulo_libros import menu_libros
-from proyecto_1_biblioteca.modulos.modulo_usuarios import menu_usuarios
-from proyecto_1_biblioteca.modulos.modulo_prestamos import menu_prestamos
+from base_datos.crear_tablas import crear_tablas
+from modulos.modulo_libros import menu_libros
+from modulos.modulo_usuarios import menu_usuarios
+from modulos.modulo_prestamos import menu_prestamos
 
 
 # ======================================================

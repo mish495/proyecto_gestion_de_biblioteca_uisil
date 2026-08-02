@@ -1,4 +1,4 @@
-from proyecto_1_biblioteca.modelos.persona import Persona
+from modelos.persona import Persona
 
 class Usuario(Persona):
 

@@ -1,4 +1,4 @@
-from proyecto_1_biblioteca.base_datos.conexion import conectar
+from base_datos.conexion import conectar
 
 # ======================================================
 # FUNCION: registrar_prestamo()
